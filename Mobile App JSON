@@ -1,0 +1,33 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Jasonbase Campus Compare",
+      "actions": {
+        "visit": {
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": {
+          "type": "image",
+          "style": {
+            "width": "40",
+            "height": "40"
+          },
+          "url": "https://raw.githubusercontent.com/earamburo/CC_JSON_MobileApp/master/app-icon.png"
+        },
+        "style": {
+          "background": "#001932"
+        }
+      },
+      "background": {
+        "type": "html",
+        "url": "https://www.campuscompare.com/",
+        "action": {
+          "trigger": "visit"
+        }
+      }
+    }
+  }
+}
